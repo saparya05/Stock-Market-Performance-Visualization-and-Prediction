@@ -1,4 +1,4 @@
-# 📈 AAPL Stock Price Analysis & Prediction
+# 📈 Stock Price Analysis & Prediction
 
 This project performs historical stock data analysis and simple predictive modeling for **Apple Inc. (AAPL)** using Python libraries such as `yfinance`, `pandas`, `NumPy`, and `matplotlib`.
 
