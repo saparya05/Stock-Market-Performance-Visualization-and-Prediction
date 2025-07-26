@@ -20,6 +20,7 @@ plt.title('AAPL Stock Price Over Time')
 plt.xlabel('Date')
 plt.ylabel('Adjusted Close Price (USD)')
 plt.legend()
+plt.savefig("aapl_stock_price.png", dpi=300)
 plt.show()
 
 # Plot Daily Returns
@@ -29,6 +30,7 @@ plt.title('AAPL Daily Returns Over Time')
 plt.xlabel('Date')
 plt.ylabel('Daily Return')
 plt.legend()
+plt.savefig("aapl_daily_returns.png", dpi=300)
 plt.show()
 
 # Calculate 50-day and 200-day moving averages
@@ -44,6 +46,7 @@ plt.title('AAPL Stock Price with Moving Averages')
 plt.xlabel('Date')
 plt.ylabel('Price (USD)')
 plt.legend()
+plt.savefig("aapl_moving_averages.png", dpi=300)
 plt.show()
 
 data = stock_data.dropna()
@@ -79,6 +82,7 @@ plt.title('AAPL Actual vs Predicted Stock Prices')
 plt.xlabel('Date')
 plt.ylabel('Stock Price (USD)')
 plt.legend()
+plt.savefig("aapl_actual_vs_predicted.png", dpi=300)
 plt.show()
 
 
@@ -105,4 +109,5 @@ plt.title('AAPL RSI (Relative Strength Index)')
 plt.xlabel('Date')
 plt.ylabel('RSI')
 plt.legend()
+plt.savefig("aapl_rsi.png", dpi=300)
 plt.show()
