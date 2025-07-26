@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 2. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/aapl-stock-analysis.git
+git clone https://github.com/saparya05/Employee-Management-System
 cd aapl-stock-analysis
 ```
 3. **Clone the repository**
